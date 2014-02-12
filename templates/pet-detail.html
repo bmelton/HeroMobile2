@@ -1,0 +1,26 @@
+<!--
+  This template loads for the 'tab.article-detail' state (app.js)
+  'article' is a $scope variable created in the PetCtrl controller (controllers.js)
+  The PetCtrl pulls data from the Pets service (service.js)
+  The Pets service returns an array of article data
+-->
+<view title="article.title">
+    <content has-header="true" padding="true">
+        <div class="list card">
+            <div class="item">
+                <h2>{{ article.title }}</h2>
+                <p>{{ article.user }}</p>
+            </div>
+
+            <div class="item item-image">
+                <img src="{{ article.image }}" style="width: 100%;">
+            </div>
+        </div>
+        <p>{{ article.description }}</p>
+        <hr />
+        <p>{{ article.text }}</p>
+        <p><a href="{{ article.url }}" target="_new">full article</a> on <a href="{{ article.source }}">{{ article.source }}</a></p>
+        <p><a class="button button-small icon ion-arrow-left-b" href="#/tab/articles"> Back to News</a></p>
+        <br /><br />
+    </content>
+</view>
