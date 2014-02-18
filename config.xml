@@ -2,7 +2,7 @@
 <widget id="com.ionicframework.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>HeroChat</name>
     <description>
-        HeroChat.com News Portal
+        HeroChat.com mobile app
     </description>
     <author email="barry.melton@gmail.com" href="http://herochat.com/">
         Barry Melton
