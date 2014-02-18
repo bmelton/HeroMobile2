@@ -13,5 +13,5 @@
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
-    <icon src="icons/android/xhdpi.png" width="96" height="96" />
+    <icon src="icon.png" width="96" height="96" />
 </widget>
