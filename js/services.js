@@ -14,18 +14,18 @@ angular.module('starter.services', [])
  */
 .factory('PetService', function($http) {
     // Might use a resource here that returns a JSON array
-    var pets = $http({method: 'get', url: 'http://herochat.com/news/preview/'}).success(function(data, status, headers, config) {
-        var pets = data;
-        return pets;
+    var news = $http({method: 'get', url: 'http://herochat.com/news/preview/'}).success(function(data, status, headers, config) {
+        var news = data;
+        return news;
     });
 
     return {
         all: function() {
-            return pets;
+            return news;
         },
-        get: function(petId) {
+        get: function(newsId) {
             // Simple index lookup
-            return pets[petId];
+            return news[newsId];
         }
     }
 });
