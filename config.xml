@@ -3,7 +3,7 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "com.herochat.mobile"
 		versionCode=""
-		version   = "0.0.1">
+		version   = "0.0.2">
 		<name>HeroChat</name>
 		<description>
             HeroChat.com mobile app		
