@@ -32,7 +32,7 @@
 		<preference name="SuppressesIncrementalRendering" value="false" />
 		<preference name="android-minSdkVersion" value="0" />
 		<preference name="android-installLocation" value="internalOnly" />
-		<preference name="SplashScreenDelay" value="0" />
+		<preference name="SplashScreenDelay" value="1" />
 		<preference name="ErrorUrl" value=""/>
 		<preference name="BackgroundColor" value=""/>
 		<preference name="KeepRunning" value="false"/>
@@ -44,11 +44,6 @@
 		<gap:platform name="android" />
 		<gap:platform name="winphone" />
 		<feature name="http://api.phonegap.com/1.0/network"/>
-		<icon src="res/icon/android/icon-72-hdpi.png" gap:platform="ios" width="72" height="72" />
-		<icon src="res/icon/android/icon-72-hdpi.png" gap:platform="ios" width="76" height="76" />
-		<icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
-		<icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
-		<icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
-		<icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+        <icon src="icon.png" width="128" height="128" />
 		<access origin="*" />
 	</widget>
